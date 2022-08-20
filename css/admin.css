@@ -1,0 +1,75 @@
+body {
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(81, 34, 179, 0.93) 0%, rgba(55, 237, 154, 1) 100%);
+    margin-top: 15%;
+}
+
+
+.padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padre .login {
+    background: rgba(0, 0, 0, 0.1);
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 75px;
+    padding-top: 25px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #fff;
+    border-radius: 10%;
+}
+
+.padre .login h3 {
+    font-size: 25px;
+}
+
+.login .frm_index{
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.login .frm_index input {
+    display: inline-block;
+    width: 100%;
+    padding: 7px 10px;
+    height: 25px;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    background: #f0f0f0;
+    color: #7b7b7b;
+    font-size: 1em;
+    color: #999;
+    font-family:
+        'Quicksand', sans-serif;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+
+.login .frm_index button {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 7px 10px;
+    height: 40px;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    background: #f0f0f0;
+    color: #7b7b7b;
+    font-size: 1em;
+    color: #999;
+    font-family:
+        'Quicksand', sans-serif;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
