@@ -17,6 +17,7 @@
             <form class="frm_index" method="POST" action="./conexion/login.php" enctype="multipart/form-data">
             <input type="text" name="nombre_usuario" value="" placeholder="Nombre de Usuario" required><br><br>
             <input type="password" name="password" value="" placeholder="Contraseña" required><br><br>
+            <input type="password" name="password" value="" placeholder="Contraseña" required><br><br>
             <button type="submit" name="inicio">Ingresar</button><br><br>
             <button type="submit" onclick="window.location='crear_usuario.php'">Registrar</button>
             </form>
